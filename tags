@@ -5,6 +5,8 @@
 !_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
 !_TAG_PROGRAM_URL	https://ctags.io/	/official site/
 !_TAG_PROGRAM_VERSION	0.0.0	/bffbf463/
+RULESFILE	Makefile	/^RULESFILE=\/usr\/share\/X11\/xkb\/rules\/evdev$/;"	m
 Rotate ctrl, super and alt	README.md	/^# Rotate ctrl, super and alt$/;"	c
 TODO	README.md	/^## TODO$/;"	s
 install	Makefile	/^install:$/;"	t
+uninstall	Makefile	/^uninstall:$/;"	t
