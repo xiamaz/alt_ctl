@@ -1,0 +1,6 @@
+include "/usr/share/kbd/keymaps/i386/qwerty/us.map.gz"
+# caps as control
+keycode 58 = Control
+# control as alt
+keycode  29 = Alt
+# alt and super are not remapped, since super is not used in the console
