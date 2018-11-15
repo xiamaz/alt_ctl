@@ -1,7 +1,0 @@
-#!/bin/dash
-
-INSERT="  custom:alt_ctl          =       +custom(alt_ctl)"
-
-if [ -z "$(grep "custom:alt_ctl" $1)" ]; then
-	sed -i "/! option	=	symbols/a ${INSERT}" $1
-fi

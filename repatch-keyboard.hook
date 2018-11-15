@@ -1,0 +1,10 @@
+[Trigger]
+Operation = Install
+Operation = Upgrade
+Type = Package
+Target = xkeyboard-config
+
+[Action]
+Description = Repatching xkeyboard layout with alt_ctl
+When = PostTransaction
+Exec = /opt/alt_ctl/patch_layout
