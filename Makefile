@@ -13,7 +13,7 @@ install: altctl.map.gz
 	install -m644 repatch-keyboard.hook /etc/pacman.d/hooks/
 	echo "Put patcher into opt"
 	mkdir -p /opt/alt_ctl
-	sed 's/RULESFILE/$(RULESFILE)/' patch_layout > /opt/alt_ctl/patch_layout
+	sed "s@RULESFILE@$(RULESFILE)@g" patch_layout > /opt/alt_ctl/patch_layout
 	chmod +x /opt/alt_ctl/patch_layout
 	/opt/alt_ctl/patch_layout
 
